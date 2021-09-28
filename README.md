@@ -15,6 +15,7 @@
 
 1. Download this repository
 2. `cd` into repository directory
+3. Run `rake db:create` to create the database
 3. Run `rake db:migrate` to build the database
 4. Run `rake db:seed` to seed the database with Cookies and Wines
 5. Run `yarn add @rails/webpacker`
