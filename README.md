@@ -20,7 +20,7 @@
 4. Run `rake db:seed` to seed the database with Cookies and Wines
 5. Run `yarn add @rails/webpacker`
 6. Run `bundle update webpacker`
-7. Run `rails start` to start the server
+7. Run `rails s` to start the server
 8. Visit the address provided for the local server (i.e. `http://localhost:3000`)
 
 
