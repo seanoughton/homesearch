@@ -17,8 +17,10 @@
 2. `cd` into repository directory
 3. Run `rake db:migrate` to build the database
 4. Run `rake db:seed` to seed the database with Cookies and Wines
-5. Run `rails start` to start the server
-6. Visit the address provided for the local server (i.e. `http://localhost:3000`)
+5. Run `yarn add @rails/webpacker`
+6. Run `bundle update webpacker`
+7. Run `rails start` to start the server
+8. Visit the address provided for the local server (i.e. `http://localhost:3000`)
 
 
 ## Usage
