@@ -71,6 +71,7 @@ class SearchForm extends React.Component {
                   <label style={{ color: "#1A0006" }}>Street Address</label>
                 }
                 name="street"
+                value=""
                 rules={[
                   {
                     message: "Please input an address.",
@@ -82,6 +83,7 @@ class SearchForm extends React.Component {
               <Form.Item
                 label={<label style={{ color: "#1A0006" }}>City</label>}
                 name="city"
+                value=""
                 rules={[
                   {
                     message: "Please input a city.",
@@ -93,6 +95,7 @@ class SearchForm extends React.Component {
               <Form.Item
                 label={<label style={{ color: "#1A0006" }}>State</label>}
                 name="state"
+                value=""
                 rules={[
                   {
                     message: "Please input a state.",
